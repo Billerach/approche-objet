@@ -39,7 +39,7 @@ public class Personne {
         return adresse;
     }
 //Méthodes de classe(mode noob engagé ^^)
-    public String FormatNom(){
+    public String formatNom(){
         return this.prenom + " " + this.nom.toUpperCase();
     }
 }

@@ -1,15 +1,15 @@
 package fr.epsi.banque.entites;
 
 public class Compte {
-    int numeroCompte;
+    int numerocompte;
     int soldeCompte;
 
     public int getNumeroCompte() {
-        return numeroCompte;
+        return numerocompte;
     }
 
     public void setNumeroCompte(int numeroCompte) {
-        this.numeroCompte = numeroCompte;
+        this.numerocompte = numeroCompte;
     }
 
     public double getSoldeCompte() {
@@ -21,7 +21,7 @@ public class Compte {
     }
 
     public Compte(int numeroCompte, int soldeCompte) {
-        this.numeroCompte = numeroCompte;
+        this.numerocompte = numeroCompte;
         this.soldeCompte = soldeCompte;
     }
 }
