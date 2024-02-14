@@ -5,20 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc4c626e-60ca-4c92-a6e0-cef1a8a3de61" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/approche-objet.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entites/AdressePostale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entites/Personne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/essais/TestAdressePostale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/essais/TestPersonne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/epsi/banque/entites/Compte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/epsi/banque/entites/TestBanque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/ConversionNombre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/epsi/entites/Cercle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/epsi/essais/TestCercle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/epsi/banque/entites/Compte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/epsi/banque/entites/Compte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/epsi/banque/entites/TestBanque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/epsi/banque/entites/TestBanque.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,11 +41,12 @@
   "keyToString": {
     "Application.ConversionNombre.executor": "Run",
     "Application.TestBanque.executor": "Run",
+    "Application.TestCercle.executor": "Run",
     "Application.TestPersonne.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -91,6 +83,7 @@
       <workItem from="1707910419738" duration="10000" />
       <workItem from="1707912855884" duration="795000" />
       <workItem from="1707913752443" duration="3015000" />
+      <workItem from="1707917710071" duration="1833000" />
     </task>
     <servers />
   </component>
