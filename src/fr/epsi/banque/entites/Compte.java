@@ -24,4 +24,8 @@ public class Compte {
         this.numerocompte = numeroCompte;
         this.soldeCompte = soldeCompte;
     }
+    @Override
+    public String toString() {
+        return "N°" + numerocompte + " = " + soldeCompte + " € (Compte";
+    }
 }

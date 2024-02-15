@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc4c626e-60ca-4c92-a6e0-cef1a8a3de61" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/fr/epsi/banque/entites/CompteTaux.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/epsi/banque/entites/Credit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/epsi/banque/entites/Debit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/epsi/banque/entites/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/epsi/banque/entites/TestOperation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entites/Personne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entites/Personne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/epsi/banque/entites/Compte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/epsi/banque/entites/Compte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/epsi/banque/entites/TestBanque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/epsi/banque/entites/TestBanque.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,30 +40,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ConversionNombre.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestBanque.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestCercle.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestPersonne.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ConversionNombre.executor": "Run",
+    "Application.TestBanque.executor": "Run",
+    "Application.TestCercle.executor": "Run",
+    "Application.TestOperation.executor": "Run",
+    "Application.TestPersonne.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -84,6 +90,10 @@
       <workItem from="1707917710071" duration="1833000" />
       <workItem from="1707919592884" duration="1142000" />
       <workItem from="1707920952530" duration="1052000" />
+      <workItem from="1707924391308" duration="440000" />
+      <workItem from="1707925545042" duration="505000" />
+      <workItem from="1707993735785" duration="3042000" />
+      <workItem from="1708000387392" duration="4014000" />
     </task>
     <servers />
   </component>
