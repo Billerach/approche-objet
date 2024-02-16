@@ -2,7 +2,6 @@ package listes;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Iterator;
 import java.util.List;
 
 public class TestListeInt {
@@ -24,17 +23,11 @@ public class TestListeInt {
         entiers.remove(Collections.min(entiers));
         System.out.println(entiers);
 //Recherchez tous les éléments négatifs et modifiez les de manière à ce qu’ils deviennent positifs.
-        Iterator<Integer> iterateur = entiers.iterator();
-        int compteur = 0;
-        while (iterateur.hasNext()) {
-            Integer entier = iterateur.next();
-            compteur++;
-            if (entier < 0) {
-                entier *= -1;
-                entiers.set(entier)*-1);  //ABANDON
-            }
-        }
+        for (int i = 0; i < entiers.size(); i++)
+//            if (entiers.get(i) < 0) {
+//                entiers.set(i, -entiers.get(i));
+//          
 //Affichez enfin la liste résultante
-            System.out.println(entiers);
+        System.out.println(entiers.size());
     }
 }
