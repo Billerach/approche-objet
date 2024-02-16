@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc4c626e-60ca-4c92-a6e0-cef1a8a3de61" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fr/epsi/banque/entites/CompteTaux.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/epsi/banque/entites/Credit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/epsi/banque/entites/Debit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/epsi/banque/entites/Operation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/epsi/banque/entites/TestOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/epsi/geometrie/entites/Cercle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/epsi/geometrie/entites/ObjetGeometrique.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/epsi/geometrie/entites/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/epsi/geometrie/essais/TestObjetGeometrique.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/epsi/banque/entites/Compte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/epsi/banque/entites/Compte.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/epsi/banque/entites/TestBanque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/epsi/banque/entites/TestBanque.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -45,6 +43,7 @@
     "Application.ConversionNombre.executor": "Run",
     "Application.TestBanque.executor": "Run",
     "Application.TestCercle.executor": "Run",
+    "Application.TestObjetGeometrique.executor": "Run",
     "Application.TestOperation.executor": "Run",
     "Application.TestPersonne.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -61,7 +60,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -93,7 +92,8 @@
       <workItem from="1707924391308" duration="440000" />
       <workItem from="1707925545042" duration="505000" />
       <workItem from="1707993735785" duration="3042000" />
-      <workItem from="1708000387392" duration="4014000" />
+      <workItem from="1708000387392" duration="5647000" />
+      <workItem from="1708070891493" duration="2698000" />
     </task>
     <servers />
   </component>
