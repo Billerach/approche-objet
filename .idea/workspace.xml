@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc4c626e-60ca-4c92-a6e0-cef1a8a3de61" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sets/TestSetDouble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listes/TestListString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listes/TestListVille.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listes/Ville.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/listes/FusionListe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/listes/FusionListe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/listes/TestListeInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/listes/TestListeInt.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +46,8 @@
     "Application.FusionListe.executor": "Run",
     "Application.TestBanque.executor": "Run",
     "Application.TestCercle.executor": "Run",
+    "Application.TestListString.executor": "Run",
+    "Application.TestListVille.executor": "Run",
     "Application.TestListeInt.executor": "Run",
     "Application.TestObjetGeometrique.executor": "Run",
     "Application.TestOperation.executor": "Run",
@@ -62,7 +67,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -121,6 +126,8 @@
       <workItem from="1708097369833" duration="9000" />
       <workItem from="1708097514044" duration="1095000" />
       <workItem from="1708098639295" duration="474000" />
+      <workItem from="1708254327618" duration="2582000" />
+      <workItem from="1708259994618" duration="4099000" />
     </task>
     <servers />
   </component>

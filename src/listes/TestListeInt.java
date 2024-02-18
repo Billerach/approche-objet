@@ -9,25 +9,25 @@ public class TestListeInt {
 
 //Dans cette classe instanciez une ArrayList d’entiers et placez y les éléments suivants : -1, 5, 7, 3, -2, 4, 8, 5
         List<Integer> entiers = new ArrayList<>();
-        int[] array = {-1, 5, 7, 3, -2, 48, 566, 5};
+        int[] array = {-1, 5, 7, 3, -2, 4, 10, 5};
         for (int n : array) {
             entiers.add(n);
         }
-//Affichez tous les éléments de la liste
-        System.out.println(entiers);
-//Affichez la taille de la liste
-        System.out.println(entiers.size());
-//Recherchez et affichez le plus grand élément de la liste
-        System.out.println(Collections.max(entiers));
-//Supprimez le plus petit élément de la liste et affichez le résultat
+        System.out.println("Liste : " + entiers);
+
+        System.out.println("Taille de la liste : " + entiers.size());
+
+        System.out.println("Le plus grand élément de la liste : " + Collections.max(entiers));
+
         entiers.remove(Collections.min(entiers));
-        System.out.println(entiers);
-//Recherchez tous les éléments négatifs et modifiez les de manière à ce qu’ils deviennent positifs.
-        for (int i = 0; i < entiers.size(); i++)
-//            if (entiers.get(i) < 0) {
-//                entiers.set(i, -entiers.get(i));
-//          
-//Affichez enfin la liste résultante
-        System.out.println(entiers.size());
+        System.out.println("Après suppression du plus petit élément : " + entiers);
+
+        for (int i = 0; i < entiers.size(); i++){
+            if (entiers.get(i) < 0) {
+                entiers.set(i, -entiers.get(i));
+            }
+        }
+        System.out.println("Après avoir rendu les nombres négatifs positif : " + entiers);
+
     }
 }
